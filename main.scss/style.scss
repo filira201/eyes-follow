@@ -21,6 +21,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.8s;
+
+    &:hover {
+        background: #ee8ac9;
+    }
 
     &::before {
         content: '';
